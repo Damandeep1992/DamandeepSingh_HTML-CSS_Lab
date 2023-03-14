@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bars{
+background-color: lightgrey;
+margin: 0;
+padding: 0;
+display: inline-block;
+height: 420px;
+width: 320px;
+}
+
+.bars li{
+    padding: 20px;
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+.bars span{
+   
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+}
+
+.bars .bar{
+  display: block;
+  background-color:black;
+  width: 50px;
+ 
+  position: absolute;
+  bottom: 0;
+}
+
+.bars .bar::before{
+    color: black;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 20px;
+}
+
+h1{
+    padding-left: 85px;
+    padding-top: 20px;
+}

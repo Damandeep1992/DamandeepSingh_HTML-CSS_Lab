@@ -1,0 +1,39 @@
+img{
+    width: 100%;
+    opacity: .75;
+}
+
+#login{
+    border: 1px whitesmoke;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    width: 30%;
+    
+}
+form{
+    border: 1px wheat;
+}
+
+h2{
+    color: aliceblue;
+}
+input{
+    border: 2px wheat;
+    padding: 5px;
+}
+
+button{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+
+input:focus{
+    outline: none;
+    background-color: steelblue;
+    opacity: 0.35;
+    color: aliceblue;
+}

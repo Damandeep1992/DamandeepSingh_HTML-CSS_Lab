@@ -1,0 +1,45 @@
+#head{
+    background-color: red;
+    text-align: right;
+    padding-top: 5px;
+    padding-right:25px;
+    padding-bottom: 5px;
+}
+
+ul{
+    list-style: none;
+    background-color: lightgrey;
+    margin-top: 0;
+}
+ ul li{
+     display: inline-block;
+     position: relative;
+ }
+
+ ul li a{
+     display: block;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+ }
+
+ ul li ul.dropdown li{
+     display: block;
+ }
+
+ ul li ul.dropdown{
+     width: 150%;
+     background-color: aqua;
+     display: none;
+     position: absolute;
+     z-index: 999;
+
+ }
+
+ ul li:hover{
+     background-color: azure;
+ }
+
+ ul li:hover ul.dropdown{
+     display: block;
+ }
